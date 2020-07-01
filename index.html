@@ -14,7 +14,7 @@
   <body>
     <!-- preload -->
     <div class="preloader">
-      <img src="img/preloader.gif" class="preloader__item" alt="" />
+      <img src="img/preloader1.gif" class="preloader__item" alt="" />
     </div>
     <!-- end preload -->
     <!-- header -->
@@ -69,7 +69,7 @@
           </li>
           <li><a href="#header" class="nav__single-link">Home</a></li>
           <li><a href="#about" class="nav__single-link">About me</a></li>
-          <li><a href="#free" class="nav__single-link">my JS projects</a></li>
+          <li><a href="#proj" class="nav__single-link">my JS projects</a></li>
           <li><a href="#work" class="nav__single-link">my CV</a></li>
           <li><a href="#contact" class="nav__single-link">contact</a></li>
         </ul>
@@ -84,6 +84,125 @@
       </div>
     </header>
     <!-- end of header -->
+    <!-- about -->
+    <section class="about section-padding" id="about">
+      <div class="grid-container grid-container--medium-2">
+        <!-- about container -->
+        <article class="about-container">
+          <!-- first child -->
+          <div class="section-title">
+            <h1 class="section-title__name bell-fonts">
+              my super short story
+            </h1>
+            <div class="section-title__underline"></div>
+            <p class="section-title__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              eligendi maiores dolorum, consequatur atque vel in neque fuga.
+              Blanditiis, at?
+            </p>
+          </div>
+          <!-- second child img-->
+          <div class="about__img">
+            <img
+              src="img/aboutImg-1.jpeg"
+              class="about__img-item"
+              alt="about img"
+            />
+          </div>
+        </article>
+        <!-- end of about countainer -->
+        <!-- about container -->
+        <article class="about-container">
+          <!-- first child -->
+          <div class="section-title">
+            <h1 class="section-title__name bell-fonts">
+              what i do everyday!
+            </h1>
+            <div class="section-title__underline"></div>
+            <p class="section-title__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              eligendi maiores dolorum, consequatur atque vel in neque fuga.
+              Blanditiis, at?
+            </p>
+          </div>
+          <!-- second child img-->
+          <div class="about__img about__img-special">
+            <img
+              src="img/aboutImg-2.jpeg"
+              class="about__img-item"
+              alt="about img"
+            />
+          </div>
+        </article>
+        <!-- end of about countainer -->
+      </div>
+    </section>
+    <!-- projects -->
+    <section class="proj section-padding" id="proj">
+      <div class="grid-container">
+        <!-- first item -->
+        <form class="proj-form">
+          <p class="proj-from__feedback">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+            a.
+          </p>
+          <h3 class="proj-form__title bell-fonts">get free codes</h3>
+          <div class="proj-form__input">
+            <input
+              type="text"
+              name=""
+              id="name"
+              maxlength="15"
+              class="input-name"
+              placeholder="name"
+            />
+          </div>
+          <div class="proj-form__input">
+            <input
+              type="text"
+              name=""
+              id="lastname"
+              maxlength="15"
+              class="input-lastname"
+              placeholder="lastname"
+            />
+          </div>
+          <div class="proj-form__input">
+            <input
+              type="email"
+              name=""
+              id="email"
+              maxlength="15"
+              class="input-email"
+              placeholder="your email"
+            />
+          </div>
+
+          <input
+            type="submit"
+            value="sign up"
+            id="submit"
+            maxlength="15"
+            class="input-submit"
+          />
+        </form>
+        <!-- second item -->
+        <article class="proj-card">
+          <h3 class="proj-card__title bell-fonts">the lucky ones?</h3>
+          <div class="proj-card__list">
+            <div class="person">
+              <img
+                src="img/person-1.jpeg"
+                alt="person"
+                class="person__thumbnail"
+              />
+              <h4 class="person__name">John</h4>
+              <h4 class="person__lastname">doe</h4>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <script src="js/app.js"></script>
   </body>
